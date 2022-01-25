@@ -1,4 +1,5 @@
-import sys
-a, b = int(sys.stdin.readline().split())
-q, w, e, r, t, y, u, i, o, p = int(sys.stdin.readline().split())
-if
+n, x = map(int, input().split())
+a = list(map(int, input().split()))
+for i in a:
+    if i < x:
+        print(i, end=" ")
